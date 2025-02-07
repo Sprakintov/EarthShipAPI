@@ -39,8 +39,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'Shipment',
-    'api',
-    'UserManagement'
+    'UserManagement',
+    'Base',
+    'BuyForMe',
+    'Warehouse'
+    
 ]
 # AUTH_USER_MODEL = 'UserManagement.CustomUser'
 MIDDLEWARE = [
@@ -126,4 +129,5 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# AUTH_USER_MODEL = 'UserManagement.CustomUser'
+AUTH_USER_MODEL = 'UserManagement.Users'
+swappable = 'AUTH_USER_MODEL'

@@ -1,5 +1,6 @@
 from rest_framework import serializers
 from Shipment.models import *
+from UserManagement.models import *
 
 class ItemSerializer(serializers.ModelSerializer):
     class Meta:

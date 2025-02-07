@@ -14,11 +14,11 @@ urlpatterns = [
 
 
     #Address CRUD endpoints
-    path('addresses/', Shipmentviews.showAddresses),
-    path('addresses/<str:pk>/', Shipmentviews.getAddress),
-    path('addresses/add/', Shipmentviews.addAddress),
-    path('addresses/update/<str:pk>/', Shipmentviews.updateAddress),
-    path('addresses/delete/<str:pk>/', Shipmentviews.deleteAddress),
+    # path('addresses/', Shipmentviews.showAddresses),
+    # path('addresses/<str:pk>/', Shipmentviews.getAddress),
+    # path('addresses/add/', Shipmentviews.addAddress),
+    # path('addresses/update/<str:pk>/', Shipmentviews.updateAddress),
+    # path('addresses/delete/<str:pk>/', Shipmentviews.deleteAddress),
 ]
 
 
