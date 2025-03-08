@@ -5,4 +5,4 @@ from UserManagement.models import Address
 
 
 
-
+admin.site.register(ShipmentOrder)   
